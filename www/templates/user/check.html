@@ -1,0 +1,51 @@
+<style type="text/css">
+	.app-tips{
+		text-align: center;
+		font-size: 20px;
+		font-weight: 500;
+		margin: 10% auto;
+		padding: 15px;
+		color: #888;
+	}
+	.col-75{margin-left: 20px;border-bottom: 1px solid #ccc;}
+	.size16{font-size: 14px;font-weight: 500;color: #666}
+	.row{line-height: 50px;}
+	.active{color:#8a8af0;}
+</style>
+
+<div class="content has-header" style="font-size: 18px;">
+	<h2 class="app-tips">您提交的资料已经在审核中，我们将在第一时间进行回复你</h2>
+	<div class="row">
+		<div class="col">
+			<div class="col-demo">2016.3.2</div>
+		</div>
+		<div class="col col-75">
+			<div class="col-demo size16">
+				<i class="ion-record in-tag">  你提交的个人信息已经进行审核</i></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="col-demo">2016.3.2</div>
+		</div>
+		<div class="col col-75">
+			<div class="col-demo size16">
+				<i class="ion-record in-tag">  正在核对你的个人信息</i></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<div class="col-demo active">2016.3.2</div>
+		</div>
+		<div class="col col-75">
+			<div class="col-demo size16">
+				<i class="ion-record in-tag active">  等待中...</i></div>
+		</div>
+	</div>
+
+	</br>
+	</br>
+	<div class="padding size16">
+		<button class="button button-block button-positive" ng-click="checkOk()">审核完成</button>
+	</div>
+</div>

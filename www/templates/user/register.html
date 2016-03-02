@@ -1,0 +1,36 @@
+<style type="text/css">
+	.info-image{
+		background-color: #0099FF;
+		border-radius: 80px;
+		margin: 6px auto;
+		height: 150px;
+		width: 150px;
+		box-shadow:2px 8px 5px #999; /*底边阴影*/ 
+	}
+	.size16{font-size: 16px;font-weight: 500;color: #999}
+</style>
+
+<div class="content has-header">
+	<div class="info-image"></div>
+	<div class="list list-inset">
+		<label class="item item-input">
+			<input type="text" placeholder="请输入您的手机号码">
+			<button class="button button-positive" ng-click="getSmsCode()"> {{smsCodeBtn}} </button>
+		</label>
+		</br>
+		<label class="item item-input">
+			<input type="text" style="height: 40px;" placeholder="请输入您的验证码">
+		</label>
+	</div>
+	<div class="padding">
+		<button class="button button-block button-positive" ng-click="registerNow()">极速注册</button>
+	</div>
+	<div class="padding size16">
+		<div ng-click="yqmShow()">邀请码</div>
+		<label class="item item-input ng-hide" style="margin: 5px 0" ng-show="yqm">
+			<input type="text" style="height: 35px;">
+		</label>
+		</br>
+		<div>新人注册即送优惠红包，分享再得红包一份</div>
+	</div>
+</div>

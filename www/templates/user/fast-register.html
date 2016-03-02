@@ -1,0 +1,35 @@
+<style type="text/css">
+	.app-tips{
+		text-align: center;
+		font-size: 24px;
+		font-weight: 500;
+		margin: 10% auto;
+		padding: 20px;
+		color: #888;
+	}
+	.size16{font-size: 16px;font-weight: 500;color: #999}
+</style>
+
+<div class="content has-header">
+	<h2 class="app-tips">请填写真实信息  我们将对您所提供的信息进行第三方认证</h2>
+	<div class="list list-inset">
+		<label class="item item-input">
+			<input type="text" style="height: 40px;" placeholder="请填写您的身份证件号">
+		</label>
+		</br>
+		<label class="item item-input">
+			<input type="text" style="height: 40px;" placeholder="请填写您的姓名">
+		</label>
+	</div>
+	<div class="padding size16">
+		<div ui-sref="ruler"><input type="checkbox" name="" id="">我同意相关条款,点击阅读条款细节</div>
+	</div>
+	<div class="padding">
+		<button class="button button-block button-positive" ng-click="joinInNow()">提交资料 立即加入</button>
+	</div>
+</br>
+</br>
+	<div class="padding size16">
+		<button class="button button-outline button-positive" ui-sref="register">上一步</button>
+	</div>
+</div>
