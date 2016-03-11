@@ -1,7 +1,7 @@
 # ionic-app-demo
 an ionic framework app demo
 
----
+----
 
 # 环境安装
 ## Window 和 Linux 上打开命令行工具执行以下命令：
